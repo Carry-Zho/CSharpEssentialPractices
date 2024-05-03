@@ -1,4 +1,4 @@
-﻿namespace Practice_01
+﻿namespace Practice_15._1
 {
     internal class Program
     {
