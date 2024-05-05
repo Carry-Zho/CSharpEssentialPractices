@@ -10,9 +10,10 @@
                 ["Version"] = "1.0",
                 ["Author"] = "Author"
             };
-            while (Dictionary<string, string>.Enumerator) 
-            {
-            }
+
+            Dictionary<string, string>.Enumerator enumerator = dic.GetEnumerator();
+            Console.WriteLine(enumerator.Current.Value == null);  //true
+            Console.WriteLine(enumerator.Current.Value == null);  //true
         }
     }
 }
