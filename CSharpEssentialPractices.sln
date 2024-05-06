@@ -11,7 +11,14 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Practice_15.3", "Practice_1
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Practice_Test_01", "Practice_Test_01\Practice_Test_01.csproj", "{E01CF2BA-0809-484C-BBF0-1B206AA0C89A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practice_15.6", "Practice_15.6\Practice_15.6.csproj", "{AFA685E6-7F59-4230-A4E5-4C15BF7D369A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Practice_15.6", "Practice_15.6\Practice_15.6.csproj", "{AFA685E6-7F59-4230-A4E5-4C15BF7D369A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practice_15.9", "Practice_15.9\Practice_15.9.csproj", "{044F4AE6-86B2-4822-9C8F-ACE0EBD06BEE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{30EE5183-A2F9-4FE4-ADB6-58B2D46B3464}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +46,10 @@ Global
 		{AFA685E6-7F59-4230-A4E5-4C15BF7D369A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AFA685E6-7F59-4230-A4E5-4C15BF7D369A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AFA685E6-7F59-4230-A4E5-4C15BF7D369A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{044F4AE6-86B2-4822-9C8F-ACE0EBD06BEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{044F4AE6-86B2-4822-9C8F-ACE0EBD06BEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{044F4AE6-86B2-4822-9C8F-ACE0EBD06BEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{044F4AE6-86B2-4822-9C8F-ACE0EBD06BEE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -19,10 +19,12 @@
             Dictionary<string, string>.Enumerator enumerator;
             enumerator= dic.GetEnumerator();
             IDisposable disposable;
+            KeyValuePair<string, string> pair;
             try
             {
                 while (enumerator.MoveNext())
                 {
+                    pair = enumerator.Current;
                     Console.WriteLine(enumerator.Current.Key + ":" + enumerator.Current.Value);
                 }
             }
@@ -40,7 +42,7 @@
                 //}
             }
 
-            //使用using的错误处理和资源清理
+            //编译器实现的集合foreach操作，等价while循环--第二步,使用using的错误处理和资源清理
             using (enumerator = dic.GetEnumerator()) 
             {
                 while (enumerator.MoveNext())

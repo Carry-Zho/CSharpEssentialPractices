@@ -1,19 +1,17 @@
-﻿namespace Practice_Test_01
+﻿using System.Collections;
+namespace Practice_Test_01
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            Dictionary<string, string> dic = new Dictionary<string, string>()
+            int[] numbers = { 1, 2, 3 };
+            IEnumerator enumerator = numbers.GetEnumerator();
+            while (enumerator.MoveNext()) 
             {
-                ["Name"] = "CSharp",
-                ["Version"] = "1.0",
-                ["Author"] = "Author"
-            };
-
-            Dictionary<string, string>.Enumerator enumerator = dic.GetEnumerator();
-            Console.WriteLine(enumerator.Current.Value == null);  //true
-            Console.WriteLine(enumerator.Current.Value == null);  //true
+                int current = (int)enumerator.Current;
+                Console.WriteLine(current);
+            }
         }
     }
 }
