@@ -6,21 +6,12 @@ namespace Practice_Test_01
     {
         static void Main(string[] args)
         {
-            List<Person> peopleList = new List<Person>
+            int[] numbers = { 1, 2, 3 };
+            IEnumerator<int> enumerator = numbers.GetEnumerator();
+            while (enumerator.MoveNext())
             {
-                new Person { ID = "001", Name = "Alice", Address = "US" },
-                new Person { ID = "002", Name = "Msk", Address = "UK" },
-                new Person { ID = "003", Name = "Tku", Address = "JP" }
-            };
-
-            Dictionary<string, string> peoDic = peopleList
-                .ToDictionary(item => item.ID, item => item.Name);
-
-            foreach(var item in peoDic)
-            {
-                Console.WriteLine(item.Key + ":" + item.Value);
+                int current = (int)enumerator.Current;
+                Console.WriteLine(current);
             }
-
-        }
     }
 }

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Practice_15._9
+namespace Practice_15._15
 {
     public class Patent
     {
