@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Linq;
 
-namespace Practice_15._17
+namespace Practice_Test_01
 {
     public static class PatentData
     {
@@ -27,7 +27,7 @@ namespace Practice_15._17
             new Patent(){ Title = "Electrical Telegraph", YearOfPublication = "1837", ApplicationNumber = "4", InventorIds =new long[]{4} },
             new Patent(){ Title = "Flying Machine", YearOfPublication = "1903", ApplicationNumber = "5", InventorIds =new long[]{2, 3} },
             new Patent(){ Title = "Steam Locomotive", YearOfPublication = "1815", ApplicationNumber = "6", InventorIds =new long[]{5} },
-            new Patent(){ Title = "Droplet Deposition Apparatus", YearOfPublication = "1989", ApplicationNumber = "7", InventorIds =new long[]{6} },
+            new Patent(){ Title = "Froplet Deposition", YearOfPublication = "1989", ApplicationNumber = "7", InventorIds =new long[]{6} },
             new Patent(){ Title = "Backless Brassiere", YearOfPublication = "1914", ApplicationNumber = "8", InventorIds =new long[]{7} }
         };
     }
