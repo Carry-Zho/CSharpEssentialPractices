@@ -14,7 +14,7 @@ namespace Practice_15._19
             foreach(var item in items) 
             {
                 Console.WriteLine($"{item.Name} ({item.Title})");
-                Console.WriteLine("\t"+item.Department);
+                Console.WriteLine("\t" + item.Department);
             }
         }
     }
