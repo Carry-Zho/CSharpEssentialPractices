@@ -1,4 +1,6 @@
-﻿namespace Practice_15._20
+﻿using System.Linq;
+
+namespace Practice_15._20
 {
     internal class Program
     {
