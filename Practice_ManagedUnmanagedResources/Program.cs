@@ -20,8 +20,6 @@
                     handlerManual.Dispose();
                 }
             }
-            
-
         }
     }
 }

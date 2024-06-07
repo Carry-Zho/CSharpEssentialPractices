@@ -44,7 +44,6 @@
                 disposed = true;
             }
         }
-
         // 析构函数，确保资源在未显式调用 Dispose 方法时也能释放
         ~ResourceHolder()
         {
