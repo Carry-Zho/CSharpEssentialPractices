@@ -2,10 +2,10 @@
 {
     internal class Demo
     {
-        public static int DemoOjbectCount;
-        public void SaySomething()
+        public int OjbectCount=0;
+        public Demo(int value) 
         {
-            Console.WriteLine("Hello Moto");
+            OjbectCount = value;
         }
     }
 }

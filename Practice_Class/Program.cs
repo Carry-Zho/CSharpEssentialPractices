@@ -4,13 +4,26 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(MultiReturnFieldMethod().SayHi);
-            MultiReturnFieldMethod().dm.SaySomething();
+            int count = 1;
+            Console.WriteLine(count);
+            PrintCount(count);
+            Console.WriteLine(count);
 
+            Demo test = new Demo(100);
+            Console.WriteLine(test.OjbectCount);
+            PrintObjectCount(test);
+            Console.WriteLine(test.OjbectCount);
         }
-        public static (string SayHi, Demo dm) MultiReturnFieldMethod()
-        {
-            return ("Hi CSharp.", new Demo());
+        static void PrintObjectCount( Demo dm)
+        { 
+            dm.OjbectCount = dm.OjbectCount + 1;
+            dm = new Demo(10000);
+            Console.WriteLine(dm.OjbectCount);
+        }
+        static void PrintCount(int value)
+        { 
+            value = value + 1;
+            Console.WriteLine(value);
         }
     }
 }
