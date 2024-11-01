@@ -7,7 +7,4 @@
             Console.WriteLine(Path.Combine(@"c:\abc",@"\ef"));
         }
     }
-}
-
-
-
+} 
