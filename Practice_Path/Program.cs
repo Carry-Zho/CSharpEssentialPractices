@@ -1,12 +1,13 @@
-﻿
-namespace Practice_GenericCollections
+﻿namespace Practice_Path
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            List<int> intList = new() { 1,2,3};
-
+            Console.WriteLine(Path.Combine(@"c:\abc",@"\ef"));
         }
     }
 }
+
+
+
