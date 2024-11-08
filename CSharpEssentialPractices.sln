@@ -136,7 +136,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Practice_Tuple", "Practice_
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Practice_GenericCollections", "Practice_GenericCollections\Practice_GenericCollections.csproj", "{3A9EA8F5-B850-4C68-AE92-860373FD3543}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practice_Path", "Practice_Path\Practice_Path.csproj", "{07711CBC-C7EC-4764-8E7B-A61FE459A7A2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Practice_Path", "Practice_Path\Practice_Path.csproj", "{07711CBC-C7EC-4764-8E7B-A61FE459A7A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practice_CollectionsGeneric", "Practice_CollectionsGeneric\Practice_CollectionsGeneric.csproj", "{248081B2-5275-4C2B-8EAF-93B92F5AB307}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -404,6 +406,10 @@ Global
 		{07711CBC-C7EC-4764-8E7B-A61FE459A7A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{07711CBC-C7EC-4764-8E7B-A61FE459A7A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{07711CBC-C7EC-4764-8E7B-A61FE459A7A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{248081B2-5275-4C2B-8EAF-93B92F5AB307}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{248081B2-5275-4C2B-8EAF-93B92F5AB307}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{248081B2-5275-4C2B-8EAF-93B92F5AB307}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{248081B2-5275-4C2B-8EAF-93B92F5AB307}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
