@@ -1,4 +1,4 @@
-﻿namespace Practice_Partial
+﻿namespace Practice_Enumerable.Where
 {
     internal class Program
     {
